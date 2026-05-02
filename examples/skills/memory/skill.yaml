@@ -1,0 +1,22 @@
+name: personal-memory
+version: "1.0"
+description: Explicitly store and recall facts, preferences, and relationships in the Knowledge Graph
+tools:
+  - remember_fact
+  - recall_facts
+  - forget_fact
+  - who_do_i_know
+triggers:
+  - "I'm working on"
+  - "I prefer"
+  - "I know"
+  - "remember that I"
+  - "what do you know about me"
+  - "forget that"
+  - "who do I know"
+examples:
+  - "Remember that I prefer Python over JavaScript"
+  - "I'm working on a machine learning project called AlphaSort"
+  - "What do you know about me?"
+  - "Who do I know at my company?"
+  - "Forget fact fact_abc123"

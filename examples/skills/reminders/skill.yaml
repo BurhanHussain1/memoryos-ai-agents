@@ -1,0 +1,18 @@
+name: reminders
+version: "1.0"
+description: Set, list, and manage time-based reminders
+tools:
+  - set_reminder
+  - list_reminders
+  - complete_reminder
+triggers:
+  - "remind me"
+  - "don't let me forget"
+  - "set a reminder"
+  - "alert me"
+  - "schedule a reminder"
+examples:
+  - "Remind me to call Alice tomorrow at 9am"
+  - "Don't let me forget to submit the tax form by April 30"
+  - "What reminders do I have?"
+  - "Mark reminder rem_abc123 as done"

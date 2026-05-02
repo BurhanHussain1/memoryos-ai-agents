@@ -1,0 +1,19 @@
+name: web-research
+version: "1.0"
+description: Search the web for current facts, news, and information
+tools:
+  - web_search
+requires_env:
+  - TAVILY_API_KEY
+triggers:
+  - "look up"
+  - "search for"
+  - "find out"
+  - "what is"
+  - "who is"
+  - "latest news"
+  - "current"
+examples:
+  - "What's the latest news about Python 3.13?"
+  - "Look up the best practices for Neo4j graph modeling"
+  - "Who is the current CEO of OpenAI?"

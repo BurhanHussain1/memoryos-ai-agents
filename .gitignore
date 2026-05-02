@@ -1,0 +1,44 @@
+# ── secrets ─────────────────────────────────────────────────────────────
+.env
+.env.local
+*.key
+*.pem
+
+# ── python build artifacts ──────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ── virtual envs ─────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── tests ────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# ── logs ─────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── editors / OS ─────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# ── claude tooling ───────────────────────────────────────────────────────
+.claude/
+CLAUDE.md
+graphify-out/
+.graphifyignore

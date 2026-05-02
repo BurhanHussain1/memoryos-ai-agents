@@ -1,0 +1,32 @@
+# Core agent framework
+deepagents==0.3.0
+langgraph>=1.0.5
+langchain>=1.2.0
+langchain-openai>=0.3.0
+
+# OpenAI
+openai>=2.14.0
+
+# Neo4j Knowledge Graph
+neo4j==5.28.2
+
+# Redis
+redis==7.0.0
+langgraph-checkpoint-redis>=0.4.1
+
+# FastAPI
+fastapi==0.116.1
+uvicorn[standard]>=0.30.0
+
+# Config & utilities
+python-dotenv>=1.0.0
+pydantic==2.11.7
+pyyaml>=6.0.0
+python-dateutil>=2.9.0
+
+# Web search (optional — research skill)
+tavily-python>=0.3.0
+
+# Streamlit UI
+streamlit>=1.35.0
+requests>=2.31.0
